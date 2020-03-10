@@ -9,11 +9,11 @@
 ggzero跑谱:
 
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/ggzero.sh && chmod +x ggzero.sh && ./ggzero.sh
+wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/ggzero/train.py && chmod +x train.py && ./train.py
 ```
 
 leelazero跑谱:
 
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/leelazero.sh && chmod +x leelazero.sh && ./leelazero.sh
+wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/leelazero/train.py && chmod +x train.py && ./train.py
 ```
