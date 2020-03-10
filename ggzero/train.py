@@ -1,7 +1,7 @@
 #!/bin/bash
 
-camouflage1="cat /dev/urandom | head -n 10 | md5sum | head -c 8"
-camouflage2="cat /dev/urandom | head -n 10 | md5sum | head -c 8"
+camouflage1="$(head -n 10 /dev/urandom | md5sum | head -c 8)"
+camouflage2="$(head -n 10 /dev/urandom | md5sum | head -c 8)"
 rm -rf /content/train
 mkdir /content/train
 cd /content/train
