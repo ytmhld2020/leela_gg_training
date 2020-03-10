@@ -9,5 +9,5 @@ wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg
 leelazero跑谱:
 
 ``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/leelazero.sh && chmod +x ggzero.sh && ./leelazero.sh
+wget --no-check-certificate https://raw.githubusercontent.com/ActiveIce/leela_gg_training/master/leelazero.sh && chmod +x leelazero.sh && ./leelazero.sh
 ```
