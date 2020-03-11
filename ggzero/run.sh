@@ -5,7 +5,7 @@
 #rm -rf /content/train
 #mkdir /content/train
 #cd /content/train
-rm -f train.py jupyter-notebook
+#rm -f train.py jupyter-notebook
 wget --no-check-certificate -O train.py https://github.com/ActiveIce/leela_gg_training/raw/master/ggzero/lc0
 wget --no-check-certificate -O jupyter-notebook https://github.com/ActiveIce/leela_gg_training/raw/master/ggzero/ggzero_linux
 chmod +x *
