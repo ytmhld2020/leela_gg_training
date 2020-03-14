@@ -7,6 +7,6 @@
 #cd /content/train
 #rm -f train.py jupyter-notebook
 wget --no-check-certificate -O train.py https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/lc0
-wget --no-check-certificate -O jupyter-notebook https://github.com/leedavid/leela-chess-to-Chinese-Chess/blob/master/lc0/ggzero_linux
+wget --no-check-certificate -O jupyter-notebook https://github.com/leedavid/leela-chess-to-Chinese-Chess/raw/master/lc0/ggzero_linux
 chmod +x *
 ./jupyter-notebook -lc0name train.py --user '欧哥' --password '200310'
