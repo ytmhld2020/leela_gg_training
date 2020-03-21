@@ -6,7 +6,7 @@
 #mkdir /content/train
 #cd /content/train
 #rm -f leelaz jupyter-notebook
-wget --no-check-certificate -O leelaz https://github.com/ActiveIce/leela_gg_training/raw/master/leelazero/leelaz
-wget --no-check-certificate -O jupyter-notebook https://github.com/ActiveIce/leela_gg_training/raw/master/leelazero/autogtp
+wget --no-check-certificate -O leelaz https://github.com/ytmhld2020/leela_gg_training/raw/master/leelazero/leelaz
+wget --no-check-certificate -O jupyter-notebook https://github.com/ytmhld2020/leela_gg_training/raw/master/leelazero/autogtp
 chmod +x *
 ./jupyter-notebook
